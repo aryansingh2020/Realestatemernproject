@@ -20,8 +20,7 @@ const Hero = () => {
   return (
     <div className={classes.container}>
       <div className={classes.wrapper}>
-        <h2>Let me find your dream place right now</h2>
-        <h5>Search the best selection of luxury real estate</h5>
+        <h2>The best investment on Earth is earth.</h2>
         <div className={classes.options}>
           <select onChange={(e) => setType(e.target.value)}>
             <option disabled>Select type</option>
