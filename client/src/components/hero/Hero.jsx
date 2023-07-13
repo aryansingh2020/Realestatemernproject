@@ -34,7 +34,7 @@ const Hero = () => {
             <option value="1">100,000-200,000</option>
             <option value="2">200,000-300,000</option>
             <option value="3">300,000-400,000</option>
-            <option value="4">400,000-500,000</option>
+            <option value="4">400,000-50,000,000</option>
           </select>
           <select onChange={(e) => setContinent(e.target.value)}>
             <option disabled>Select Continent</option>

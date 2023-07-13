@@ -8,9 +8,7 @@ const Footer = () => {
         <div className={classes.col}>
           <h2>About the App</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam illum quam optio autem suscipit incidunt dicta dolorum eum dolores recusandae laboriosam expedita quo facilis, numquam et.
-            Delectus atque dolorum sapiente.
+            This app was created as a group project to search the best properties available.
           </p>
         </div>
         <div className={classes.col}>

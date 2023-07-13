@@ -114,7 +114,7 @@
     border: 1px solid transparent;
     padding: 0.5rem 1.25rem;
     border-radius: 8px;
-    background-color: blue;
+    background-color: black;
     color: #fff;
     transition: 150ms;
     cursor: pointer;
@@ -122,9 +122,9 @@
 
 .buttons>.button.active {
     scale: 1.1;
-    border-color: blue;
+    border-color: rgb(255, 0, 0);
     background-color: #fff;
-    color: blue;
+    color: rgb(255, 0, 0);
 }
 
 .catalog {
