@@ -45,18 +45,18 @@
     height: 40px;
     min-width: 160px;
     max-width: 200px;
-    border: none;
+    /* border: none; */
     outline: none;
     padding: 0.25rem 0.75rem;
-    background-color: blue;
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     border-radius: 12px;
     font-size: 18px;
     cursor: pointer;
 }
 
 .options > select:first-child{
-    color: #fff;
+    color: #000000;
 }
 
 .options > .rangeInput{

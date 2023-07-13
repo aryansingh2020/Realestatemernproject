@@ -116,17 +116,13 @@ const Navbar = () => {
         </Link>
         <ul className={classes.center}>
           <li onClick={scrollToTop} className={classes.listItem}>
-            Home
+            <a href="/">Home</a>
           </li>
+          
           <li className={classes.listItem}>
-            About
+            <Link onClick={() => setShowForm(true)}>List Property</Link>
           </li>
-          <li className={classes.listItem}>
-            Featured
-          </li>
-          <li className={classes.listItem}>
-            Contacts
-          </li>
+          
         </ul>
         <div className={classes.right}>
           {!user ?
